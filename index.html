@@ -1,13 +1,153 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body class="color-body">
+    <!-- <h1>Hello, world!</h1> -->
+
+    <div class="container font">
+        <div class="row">
+            <div class="col-md-6 left">
+                <div class="row pagar m-3 shadow p-1 bg-body rounded">
+                    <p class="fw-bold">Como desea pagar?</p>
+                    <hr>
+                    <div class="col-auto m-2">
+                        <img src="./img/tarjeta.jpg" alt="" class=" cuadrado">
+                    </div>
+                    <div class="col-auto m-2">
+                        <img src="./img/tarjeta.jpg" alt="" class=" cuadrado">
+                    </div>
+                    <div class="col-auto m-2">
+                        <img src="./img/tarjeta.jpg" alt="" class=" cuadrado">
+                    </div>
+                    <div class="col-auto m-2">
+                        <img src="./img/tarjeta.jpg" alt="" class=" cuadrado">
+                    </div>
+                    <div class="col-auto  m-2">
+                        <img src="./img/tarjeta.jpg" alt="" class=" cuadrado">
+                    </div>
+                    <hr>
+                    <p>Tienes cupon de descuento?</p>
+                </div>
+                <div class="row tarjeta m-3 p-1 shadow bg-body rounded">
+                    <p class="fw-bold">Ingrese datos de tarjeta</p>
+                    <hr>
+                </div>
+                <div class="row pasajero m-3 p-1 shadow bg-body rounded">
+                    <div class="flex">
+                        <i class="bi bi-person-walking plane"></i>
+                        <p class="fw-bold">Detalle de pasajero(s)</p>
+                    </div>
+                    <hr>
+                    <div>
+                        <div class="mb-1">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control tamano" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-1">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control tamano" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-1">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control tamano" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-1">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control tamano" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-1">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control tamano" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Acepto terminos y condiciones
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Crear cuenta con los datos ingresados
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6 rigth">
+                <div class="row total m-3 shadow bg-body rounded">
+                    <div class="h-25 color rounded-top">
+                        <div class="flex">
+                            <p class="fw-bold">Total vuelo</p>
+                            <i class="bi bi-airplane-fill plane"></i>
+                        </div>
+                        <span class="">$1.208.600</span>
+                    </div>
+                </div>
+                <div class="row compra m-3 shadow bg-body rounded">
+                    <div class="flex">
+                        <i class="bi bi-ticket-detailed plane"></i>
+                        <p class="fw-bold">Detalle de la compra</p>
+                    </div>
+                    <hr>
+                    <p>hola xD </p>
+                    <p>hola xD </p>
+                    <p>hola xD </p>
+                    <p>hola xD </p>
+                    <p>hola xD </p>
+                    <p>hola xD </p>
+                </div>
+                <div class="row adicional m-3 shadow bg-body rounded">
+                    <div class="flex">
+                        <i class="bi bi-ticket-detailed plane"></i>
+                        <p class="fw-bold">Servico adicionales</p>
+                    </div>
+                    <hr>
+                    <p>hola xD </p>
+                    <p>hola xD </p>
+                </div>
+                <div class="row hospedaje m-3 shadow bg-body rounded">
+                    <div class="flex">
+                        <i class="bi bi-ticket-detailed plane"></i>
+                        <p class="fw-bold">Detalle de hospedaje</p>
+                    </div>
+                    <hr>
+                    <p>hola xD </p>
+                    <p>hola xD </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
