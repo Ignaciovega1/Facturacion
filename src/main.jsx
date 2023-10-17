@@ -1,11 +1,7 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+const preloaderWrapper = document.querySelector('.preloader-wrapper');
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+window .addEventListener('load', function() {
 
+preloaderWrapper.classList.add('fade-out-animation');
+
+});
