@@ -10,9 +10,16 @@
   font-size: 10px !important;
 }
 
-.cuadrado {
+.tarjetas {
   height: auto;
-  width: 90px;
+  width: 150px;
+}
+
+.webpay {
+
+  height: 150px;
+  width: 150px;
+
 }
 
 /*
@@ -66,7 +73,7 @@
 }
 
 .color-body {
-  background-color: darkgrey;
+  background-color: rgb(255, 255, 255);
 }
 
 .flex {
@@ -77,4 +84,3 @@
 .plane {
   font-size: 20px;
 }
-
