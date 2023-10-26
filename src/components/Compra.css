@@ -1,0 +1,12 @@
+.compra {
+    background-color: #219Ebc;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plane {
+    font-size: 20px;
+}

@@ -1,0 +1,39 @@
+:root{
+
+    --colorfondo: #D9D9D9;
+    --boxes: #219Ebc;
+    --boxshadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    --fondotarjetas: rgb(231, 230, 230);
+    --altoimg: 120px !important;
+    --anchoimg: 120px !important;
+}
+
+.pagar{
+    
+    background-color: var(--boxes);
+}
+
+
+.box{
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    box-shadow: var(--boxshadow);
+    background: var(--fondotarjetas);
+    border-radius: 1rem;
+    transition: box-shadow 0.3s; 
+
+}
+
+
+.imagen-webpay {
+    width: var(--anchoimg);
+    height: var(--altoimg);
+  }
+  
+  .box:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(228, 238, 243, 0.5);
+  }
+  

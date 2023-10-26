@@ -1,15 +1,10 @@
-const spinnerWrapperEl = document.querySelector('.spinner-wrapper');
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+//import './index.css'
 
-window.addEventListener('load', () => {
- 
-  setTimeout(() => {
-   spinnerWrapperEl.style.opacity = '0';
-   spinnerWrapperEl.style.display = 'none';
-  }, 1000);
-  
-});
-
-function executeAjaxRequest() {
-    $("#boxLoading").addClass("spinner-wrapper")
-    setTimeout(() => $("#boxLoading").removeClass("spinner-wrapper"), 3000);
-  }
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)

@@ -1,0 +1,32 @@
+.total{
+    background-color: #219Ebc ;
+}
+
+.row {
+    /* Otros estilos de la fila */
+  }
+  
+  .color {
+    /* Otros estilos de la sección "color" */
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+    /* Otros estilos de la sección "flex" */
+  }
+  
+  .fw-bold {
+    font-weight: bold;
+    /* Otros estilos de texto en negrita */
+  }
+  
+  .text-light {
+    color: #888; /* Color de texto gris claro */
+    font-size: 20px; /* Cambia el tamaño de fuente según tus preferencias */
+    /* Otros estilos de texto ligero */
+  }
+  
+  .bi {
+    /* Otros estilos de los iconos */
+  }

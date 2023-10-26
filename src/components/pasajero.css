@@ -1,0 +1,10 @@
+.pasajero{
+    background-color: #219Ebc ;
+}
+
+.form-check-input:checked {
+    background-color: #FF5C00; /* Fondo naranja */
+    border-color: #FF5C00; /* Borde naranja */
+    color: #fff; /* Texto blanco */
+  }
+  
