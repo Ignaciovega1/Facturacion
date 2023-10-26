@@ -106,3 +106,13 @@ visibility: hidden;
 .plane {
   font-size: 20px;
 }
+
+.bg-custom-gray {
+  background-color: #bdbdbd;
+}
+
+.bg-custom-box {
+  background-color: aliceblue;
+
+
+}
