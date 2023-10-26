@@ -22,4 +22,12 @@ function Hospedaje({ objeto }) { // Cambiamos props a objeto
     );
 }
 
+
+//<div className="mb-3 pasajero-container">
+ //               <div className="mb-1">
+ //                   <label htmlFor="nombres" className="form-label text-light">
+  //                      Nombres
+  //                  </label>
+   //                 <input type="text" className="form-control tamano" id="nombres" />
+    //            </div>
 export default Hospedaje;
