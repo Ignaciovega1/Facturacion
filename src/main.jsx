@@ -1,13 +1,15 @@
-const preloaderWrapper = document.querySelector('.preloader-wrapper');
+const spinnerWrapperEl = document.querySelector('.spinner-wrapper');
 
-window .addEventListener('load', function() {
-
-preloaderWrapper.classList.add('fade-out-animation');
-
-setTimeout(() => {
-
-preloaderWrapper.style.opacity = '0';
-
-}, 1000);
-
+window.addEventListener('load', () => {
+ 
+  setTimeout(() => {
+   spinnerWrapperEl.style.opacity = '0';
+   spinnerWrapperEl.style.display = 'none';
+  }, 1000);
+  
 });
+
+function executeAjaxRequest() {
+    $("#boxLoading").addClass("spinner-wrapper")
+    setTimeout(() => $("#boxLoading").removeClass("spinner-wrapper"), 3000);
+  }
