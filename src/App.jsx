@@ -12,6 +12,7 @@ import reservaMock from './mocks/reserva'
 import NavBar from './components/NavBar'
 import jsPDF from 'jspdf';
 import 'jspdf-autotable';
+import ModalComponent from './components/Modalcomponent'
 
 function App() {
 
@@ -56,26 +57,7 @@ function App() {
     }
   };
   
-  function crearPDF() {
-    const doc = new jsPDF();
-  
-    const img = new Image();
-    img.src = '/public/logo.png';
-  
-    img.onload = function() {
-      doc.addImage(img, 'PNG', 10, 10, 50, 50); 
-  
-      doc.setDrawColor(2, 48, 71);
-      doc.line(65, 10, 65, 60);
-  
-      doc.setTextColor(2, 48, 71);
-      doc.text('Agencia de Viajes', 70, 20); 
-      doc.setTextColor(2, 48, 71);
-      doc.text('Utem Travels Ltda', 70, 30); 
-  
-      doc.save('DetallesReserva.pdf');
-    };
-  }
+
   
 
   // Calcula el costo total del vuelo
@@ -116,16 +98,16 @@ function App() {
 
             <div className="m-3">
 
-              <Button className="buscar" variant="warning" onClick={handleSubmit}>
+              <Button className="buscar" variant="warning" onClick={handleSubmit} data-bs-toggle="modal" data-bs-target="#exampleModal">
                 CONFIRMAR DATOS INGRESADOS
               </Button>
+
               <Button className="redireccionar" variant="warning" onClick={BotonRedireccionExterna}>
                 Ir a pagar
               </Button>
 
             </div>
-
-
+            <ModalComponent />
 
           </div>
         </div>
