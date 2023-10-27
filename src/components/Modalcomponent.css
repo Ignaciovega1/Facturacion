@@ -1,0 +1,20 @@
+.content-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .content-text,
+  .content-image {
+    flex: 1;
+    padding: 10px; /* Agregamos un poco de espacio alrededor de los elementos */
+  }
+  
+  .vertical-line {
+    border-left: 1px solid #000;
+    height: 100px;
+    margin-right: 250px; /* Ajusta el margen derecho según sea necesario */
+  }
+  
+  .content-image img {
+    max-width: 100px; /* Asegura que la imagen no exceda el ancho del contenedor */
+  }
